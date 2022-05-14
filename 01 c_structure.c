@@ -1,11 +1,11 @@
-#include<stdio.h>                                               // Standard Input Output. Header file
+// Write  a program that print Integer number
+#include<stdio.h>
 int main()
 {
-    printf("Journey By C_programming\n");
-    printf("Md Abdur Rahim\n");
-    printf("Daffodil International University\n");
-    printf("01995516880");                                     // Output libray function & Escape sequence
-    getch ();                                                             // Output libray function & Escape sequence
+    int num1 = 20, num2 = 90;
+    printf(" number One is : %d\n",num1); // format specifier
+     printf("number Two is : %d",num2);
+    getch();
     return 0;
 
 }
