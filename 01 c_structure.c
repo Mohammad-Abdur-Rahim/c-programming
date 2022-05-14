@@ -1,17 +1,14 @@
-// Write  a program that print Float, Double number &  character,data type
+// Write a program how to input type any user.
 #include<stdio.h>
 int main()
 {
 
-    float num1 = 10.29;
-    double num2 = 20.90988;
-    char ch = 'R';                                      // Only use one character
+    int num;
 
-    printf("Num1 is : %f\n",num1);       // .1 = meaning is dosomik ar pore koi ghore hobbaee.
-    printf("Num2 is : %lf\n",num2);
-    printf("Num3 is : %c",ch);
+    printf("please click your roll number is : ");
+    scanf("%d",&num);
+    printf("Your roll number is = %d\n",num);
 
-    getch();
     return 0;
 
 }
