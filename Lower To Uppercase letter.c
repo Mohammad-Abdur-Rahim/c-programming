@@ -1,13 +1,13 @@
-//  How to Run Lower To Uppercase letter without library function
+//  How to Run  Uppercase  to Lowercase letter without library function
 #include<stdio.h>
 int main()
 {
 
-char lower;
-printf("Inter any lower case character : ");
-scanf("%c",&lower);                                         // Ascii9 value a = 97 , A= 65 Different 32
+char upper;
+printf("Inter any Uppper case character : ");
+scanf("%c",&upper);                                         // Ascii9 value a = 97 , A= 65 Different 32
 
-printf("Your lower case letter convert Uppercase letter is  : %c\a",lower-32);
+printf("Your Upper case letter convert Lower case letter is  : %c\a",upper+32);
 
 
 
