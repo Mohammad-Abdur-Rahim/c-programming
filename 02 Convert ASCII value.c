@@ -1,12 +1,13 @@
+//  Convert Character Into Ascii Value
 #include<stdio.h>
 int main()
 {
 
-    int num;
-    printf("Please inter any ASCII value :");
-    scanf("%d",&num);
+    char a;
+    printf("Please inter any character value :");
+    scanf("%c",&a);
 
-    printf("Your ASCII value Character is : %c\a",num);
+    printf("Your Character ASCII value is : %d\a",a);
 
 
 
