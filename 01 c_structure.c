@@ -2,10 +2,11 @@
 int main()
 {
 
-    float num1,num2;
+    int num1;
+    float num2;
     printf("Enter two Integers: ");
-    scanf("%f %f",&num1,&num2);
-    printf("Number's are : %f ,%f",num1,num2);
+    scanf("%d %f",&num1,&num2);
+    printf("Number's are : %d ,%f",num1,num2);
 
     return 0;
 
