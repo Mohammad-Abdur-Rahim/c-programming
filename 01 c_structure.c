@@ -1,12 +1,16 @@
-// Write a program how to print out two user input
+// Write a program Size of Data type Bytes
 int main()
 {
 
-    int num1;
-    float num2;
-    printf("Enter two Integers: ");
-    scanf("%d %f",&num1,&num2);
-    printf("Number's are : %d ,%f",num1,num2);
+    int a;
+    float b;
+    double c;
+    char d;
+
+    printf("Size of Integer:%d Bytes \a\n",sizeof(a));
+    printf("Size of Integer:%d Bytes \n",sizeof(b));
+    printf("Size of Integer:%d Bytes \n",sizeof(c));
+    printf("Size of Integer:%d Bytes \n",sizeof(d));
 
     return 0;
 
