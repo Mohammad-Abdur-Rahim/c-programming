@@ -4,7 +4,7 @@ int main()
 {
 
 char lower;
-printf("Inter any character : ");
+printf("Inter any lower case character : ");
 scanf("%c",&lower);                                         // Ascii9 value a = 97 , A= 65 Different 32
 
 printf("Your lower case letter convert Uppercase letter is  : %c\a",lower-32);
