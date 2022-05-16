@@ -2,11 +2,11 @@
 int main ()
 {
 
-    int decimal;
-    printf("Enter any decimal Number :");
-    scanf("%d",&decimal);
+    int hexa;
+    printf("Enter any hexa-decimal Number :");
+    scanf("%x",&hexa);
 
-     printf("Hexa number is : %x",decimal);
+     printf("decimal number is : %d",hexa);
 
 
 
