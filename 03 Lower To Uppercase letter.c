@@ -8,7 +8,7 @@ char lower,upper;
 printf("Enter any uppercase letter : ");
 scanf("%c",&upper);
 
-lower=tolower(upper);                               // Libray Function toupper/tolower
+lower=tolower(upper);                               // Libray Function toupper/tolowere
 printf("Lowercase letter letter : %c\a",lower);
 
 
