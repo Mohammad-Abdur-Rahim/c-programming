@@ -2,11 +2,11 @@
 int main ()
 {
 
-    int decimal;
-    printf("Enter any Decimal Number :");
-    scanf("%d",&decimal);
+    int octal;
+    printf("Enter any Octal Number :");
+    scanf("%o",&octal);
 
-     printf("Octal number is : %o",decimal);
+     printf("Decimal number is : %d",octal);
 
 
 
