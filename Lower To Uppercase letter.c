@@ -5,11 +5,11 @@ int main()
 
 char lower,upper;
 
-printf("Enter any lowercase letter : ");
-scanf("%c",&lower);
+printf("Enter any uppercase letter : ");
+scanf("%c",&upper);
 
-upper=toupper(lower);                               // Libray Function toupper/tolower
-printf("Uppercase letter : %c",upper);
+lower=tolower(upper);                               // Libray Function toupper/tolower
+printf("Lowercase letter letter : %c\a",lower);
 
 
 
