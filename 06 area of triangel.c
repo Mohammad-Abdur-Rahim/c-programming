@@ -9,7 +9,7 @@ scanf("%f",&base);
 printf("Enter your Height : ");
 scanf("%f",&height);
 
-area = (float)1/2 * base * height;
+area = (float)1/2 * base * height; // type casting (float)
 
 printf("Area is = %.2f\a",area);
 
