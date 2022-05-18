@@ -2,12 +2,16 @@
 #include<stdio.h>
 int main()
 {
-    int num1,num2,sum;
+    int num1,num2,num3,sum;
+    float avg;
 
-    printf("Enter two numbers: ");
-    scanf("%d%d",&num1,&num2);
+    printf("Enter three  numbers: ");
+    scanf("%d%d%d",&num1,&num2,&num3);
 
-    sum=num1 + num2;
+    sum=num1 + num2 + num3;
+                                                            // two integer value define kore ans a integer
+    avg=(float)sum/3;                          // this is call for type casting
 
-    printf("Sum is :%d",sum);
+    printf("Sum is :%d\n",sum);
+    printf("avarage is :%f\a",avg);
 }
