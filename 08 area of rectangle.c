@@ -1,18 +1,16 @@
-// Area of Rectangle = Length * Width
+// Bittoar  Area =3.1416 *radius*radius
 #include<stdio.h>
+#include<math.h>
 int main()
 {
 
-float length,width,area;
+float radius,area;
 
-printf("Enter Length : ");
-scanf("%f",&length);
+printf("Enter Radius : ");
+scanf("%f",&radius);
 
-printf("Enter Width : ");
-scanf("%f",&width);
-
-area = length * width ;
-printf("Area is Rectangle : %.2f",area);
+area = M_PI *radius*radius ;                                                        // libray function M_PI
+printf(" Circle Area is : %.2f\a",area);
 
 
 
