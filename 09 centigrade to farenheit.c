@@ -1,16 +1,15 @@
-// F = (c*1.8)+32
+// C = (F-32)/1.8
 #include<stdio.h>
 int main()
 {
 
-    float c,F;
-    printf("Enter your Centigrade: ");
-    scanf("%f",&c);
+    float f ,C;
+    printf("Enter your Farenhite vale: ");
+    scanf("%f",&f);
 
-    F =(c*1.8)+32;
-    printf("Farenhite Result = %.2f",F);
+    C = (f-32)/1.8;
 
-
+    printf("Centrigrade vale is = %f",C);
 
     getch();
     return 0;
