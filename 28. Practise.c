@@ -1,14 +1,14 @@
 #include<stdio.h>
 int main()
 {
-
-int a=2147483647;
-//int  b=2147483648;
-long long int  b=2147483648;
-
-printf("Result is %d\n",a);
-//  printf("Result is %d\n",b);     value limit cross 4bit
-printf("Result is %lld\n",b);
+int x;
+float f;
+double d;
+char c;
+printf("size of integer %d\n",sizeof(x));
+printf("size of integer %d\n",sizeof(f));
+printf("size of integer %d\n",sizeof(d));
+printf("size of integer %d",sizeof(c));
 
 
 
